@@ -3,7 +3,16 @@ body{
   background-color: $red;
 }
 
+.centering-div{
+  padding: 20px 0;
+  display: flex;
+}
+
 .white-container {
   background-color: white;
   min-height: 100vh;
+}
+
+.btn-width{
+  width: 100%;
 }

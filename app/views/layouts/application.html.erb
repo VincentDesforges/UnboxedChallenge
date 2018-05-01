@@ -13,6 +13,7 @@
     <div class="container white-container">
       <%= yield %>
       <hr>
+      <%= link_to "Return home", root_path unless current_page?(root_path)%>
       <hr>
       <% 3.times do %>
         <%= render 'shared/horse_js'%>
