@@ -1,0 +1,35 @@
+// ::selection {
+//   background: $red;
+// }
+
+.green-background{
+  border-bottom: solid;
+  border-color: rgba(124, 124, 124, 0.2);
+  border-width: 1px;
+
+  background-color: $light-gray;
+  padding: 10px;
+  display: flex;
+}
+
+.avatar-logo{
+  height: 60px;
+  border-radius: $border-radius-base;
+}
+
+.user-and-text{
+  padding-left: 15px;
+  flex: 1 1 100px;
+  p{
+    font-size: 14px;
+    margin: 0;
+  }
+  a:visited{
+    color: #551A8B;
+  }
+}
+
+.time-info p{
+  color: $dark-gray;
+  font-size: 10px;
+}
